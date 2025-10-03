@@ -51,7 +51,7 @@ public class Lesson5 {
 			System.out.println(i+" * "+j+" = "+(i*j));
 		}
 		System.out.println();
-	}*/
+	}
 
 	for (int i=0; i<10; i++) {
 		for (int j = 0; j<=10; j++) {
@@ -59,5 +59,43 @@ public class Lesson5 {
 		}
 		System.out.println();
 	}
+
+
+
+	int joop = 0;
+	int birinchi = 0;
+	int ekinchi = 1;
+	for (int i=0; i<50; i++) {
+		joop = 0;
+		joop = birinchi + ekinchi;
+		birinchi = ekinchi;
+		ekinchi = joop;
+		System.out.println(joop);
+	}*/
+
+
+
+	/*int number = 1000;
+	for (int i=0;i<number; i++) {
+		System.out.println(i);
+		if (i==47) {
+			break;
+		}
+	}*/
+
+
+	int number = 50;
+	for (int i=0;i<number; i++) {
+		
+		if (i==47) {
+			//continue;
+			return;
+			//break;
+		}
+		System.out.println(i);
+	}
+
+
+	System.out.println("Hi Bilgisayar");
 	}
 }
